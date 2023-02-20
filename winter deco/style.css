@@ -1,0 +1,96 @@
+.winter-add {
+  border: 1px solid black;
+  color: transparent;
+  
+
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  background-image: 
+    radial-gradient(
+      ellipse at left bottom ,  rgb(170, 170, 235) 30%, transparent 33%
+    ),
+    radial-gradient(
+      ellipse at right bottom ,  rgb(113, 113, 236) 27%, transparent 30%
+    ),
+    radial-gradient(
+      ellipse at bottom ,  rgba(73, 73, 231) 45%, transparent 55%
+    ),
+    linear-gradient(rgb(131, 181, 218), rgb(135, 135, 229))
+  ;
+
+  background-repeat: no-repeat;
+}
+
+.tree {
+
+  /*border: 1px solid red;*/
+  height: 200px;
+  width: 100px;
+  
+}
+
+.tree .top {
+  border-radius: 100%;
+  width: 100%;
+  height: 25%;
+
+  background-image: 
+    conic-gradient( 
+    at center 50%,
+    transparent 40%,
+    blue 40%,
+    white,
+    blue 60%, 
+    transparent 60%);
+
+    transform: translateY(105%);
+    position: relative;
+    z-index: 1;
+}
+
+.tree .mid {
+  border-radius: 100%;
+  width: 100%;
+  height: 35%;
+
+  background-image: 
+    conic-gradient( 
+    at center 30%,
+    transparent 40%,
+    blue 40%,
+    white,
+    blue 60%, 
+    transparent 60%);
+  transform: translateY(35%);
+}
+
+.tree .bot {
+  border-radius: 100%;
+  width: 100%;
+  height: 35%;
+
+  background-image: 
+    conic-gradient( 
+    at center 10%,
+    transparent 40%,
+    blue 40%,
+    white,
+    blue 60%, 
+    transparent 60%);
+
+  
+}
+
+.root{
+  width: 10px;
+  height: 15px;
+  transform: translate(450%, -68%);
+  
+  background-image: 
+    linear-gradient(90deg, brown, white, brown);  
+}
+
